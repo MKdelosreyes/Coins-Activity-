@@ -1,0 +1,16 @@
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\DigitalImageProcessing.CoinsForm.resources
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\CoinsActivity.csproj.GenerateResource.cache
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\CoinsActivity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\CoinsActivity.AssemblyInfoInputs.cache
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\CoinsActivity.AssemblyInfo.cs
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\CoinsActivity.csproj.CoreCompileInputs.cache
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\bin\Debug\net8.0-windows\CoinsActivity.exe
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\bin\Debug\net8.0-windows\CoinsActivity.deps.json
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\bin\Debug\net8.0-windows\CoinsActivity.runtimeconfig.json
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\bin\Debug\net8.0-windows\CoinsActivity.dll
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\bin\Debug\net8.0-windows\CoinsActivity.pdb
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\CoinsActivity.dll
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\refint\CoinsActivity.dll
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\CoinsActivity.pdb
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\CoinsActivity.genruntimeconfig.cache
+C:\Users\Karylle\Documents\Documents\BSCS-3\Intelligent Systems 1\C#\CoinsActivity\CoinsActivity\obj\Debug\net8.0-windows\ref\CoinsActivity.dll
