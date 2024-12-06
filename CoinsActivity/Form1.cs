@@ -47,15 +47,9 @@ namespace DigitalImageProcessing
 
         private void btnCountCoins_Click(object sender, EventArgs e)
         {
-            // Prepare Image for counting
             processedImage = (Bitmap)coinsImage.Clone();
-
-            // Apply thresholding in hopes of turning the coins color to Black,
-            // and the background as White
             BasicDIP.Threshold(ref processedImage, 200);
-
             pictureBox2.Image = processedImage;
-
             CountCoins(processedImage);
         }
 
@@ -65,29 +59,21 @@ namespace DigitalImageProcessing
 
         private void CountCoins(Bitmap a)
         {
-            // initialize lists
             coins = new List<List<Point>>();
             visited = new bool[processedImage.Width, processedImage.Height];
 
-            // storing count and total value of coins
             int coinCount = 0;
             int totalValue = 0;
             p5 = p1 = c5 = c10 = c25 = 0;
 
-            // go through image, if the pixel is black, do bfs
-            // for every visited points, visitedPoints[x,y] = true
-            // classify coin etc etc;
             for (int x = 0; x < processedImage.Width; x++)
             {
                 for (int y = 0; y < processedImage.Height; y++)
                 {
-                    // Get pixel
                     Color pixel = processedImage.GetPixel(x, y);
 
                     if (pixel.R == 0 && !visited[x, y])
                     {
-                        // if the point is not yet visited, we've encountered a coin
-                        // we have to get the entire coin through bfs and store them in the list
                         List<Point> coin;
                         int coinSize;
 
@@ -95,7 +81,7 @@ namespace DigitalImageProcessing
 
                         if (coinSize < 20)
                         {
-                            continue; // do not count small dots
+                            continue; //skip small dots
                         }
 
                         coins.Add(coin);
@@ -147,7 +133,6 @@ namespace DigitalImageProcessing
 
                 Color pixel = img.GetPixel(px, py);
 
-                // To visit a Point, it must be color black and has not been visited
                 // left 
                 if (px - 1 >= 0 && pixel.R == 0 && !visited[px - 1, py])
                 {
@@ -213,20 +198,17 @@ namespace DigitalImageProcessing
 
             int selectedItem = listBox1.SelectedIndex;
 
-            // Create a new bitmap to avoid modifying the original image
             Bitmap bitmap = new Bitmap(processedImage);
 
             using (Graphics g = Graphics.FromImage(bitmap))
             using (Brush brush = new SolidBrush(Color.Red))
             {
-                // Draw points associated with the selected item
                 foreach (Point point in coins[selectedItem])
                 {
-                    g.FillEllipse(brush, point.X - 2, point.Y - 2, 4, 4); // Small circle at each point
+                    g.FillEllipse(brush, point.X - 2, point.Y - 2, 4, 4);
                 }
             }
 
-            // Update the PictureBox with the new image
             pictureBox2.Image = bitmap;
 
         }
